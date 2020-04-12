@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace UnLocker
 {
-    public partial class frmMain : Form
+    public partial class FrmMain : Form
     {
-        public frmMain()
+        public FrmMain()
         {
             InitializeComponent();
         }

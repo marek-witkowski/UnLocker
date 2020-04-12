@@ -1,6 +1,6 @@
 ﻿namespace UnLocker
 {
-    partial class frmMain
+    partial class FrmMain
     {
         /// <summary>
         /// Required designer variable.
@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.BtnUnlock = new System.Windows.Forms.Button();
+            this.BtnExit = new System.Windows.Forms.Button();
             this.cboYear = new System.Windows.Forms.ComboBox();
             this.txtDocNumber = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -37,25 +37,25 @@
             this.labStatus = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // BtnUnlock
             // 
-            this.button1.Location = new System.Drawing.Point(306, 46);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "&Odblokuj";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.BtnUnlock.Location = new System.Drawing.Point(306, 46);
+            this.BtnUnlock.Name = "BtnUnlock";
+            this.BtnUnlock.Size = new System.Drawing.Size(75, 23);
+            this.BtnUnlock.TabIndex = 0;
+            this.BtnUnlock.Text = "&Odblokuj";
+            this.BtnUnlock.UseVisualStyleBackColor = true;
+            this.BtnUnlock.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // BtnExit
             // 
-            this.button2.Location = new System.Drawing.Point(306, 75);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "&Zakończ";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.BtnExit.Location = new System.Drawing.Point(306, 75);
+            this.BtnExit.Name = "BtnExit";
+            this.BtnExit.Size = new System.Drawing.Size(75, 23);
+            this.BtnExit.TabIndex = 1;
+            this.BtnExit.Text = "&Zakończ";
+            this.BtnExit.UseVisualStyleBackColor = true;
+            this.BtnExit.Click += new System.EventHandler(this.button2_Click);
             // 
             // cboYear
             // 
@@ -111,7 +111,7 @@
             this.labStatus.TabIndex = 6;
             this.labStatus.Text = "Gotowy!";
             // 
-            // frmMain
+            // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -121,10 +121,10 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtDocNumber);
             this.Controls.Add(this.cboYear);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.BtnExit);
+            this.Controls.Add(this.BtnUnlock);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Name = "frmMain";
+            this.Name = "FrmMain";
             this.Text = "Odblokowywacz";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -133,8 +133,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button BtnUnlock;
+        private System.Windows.Forms.Button BtnExit;
         private System.Windows.Forms.ComboBox cboYear;
         private System.Windows.Forms.TextBox txtDocNumber;
         private System.Windows.Forms.Label label1;
